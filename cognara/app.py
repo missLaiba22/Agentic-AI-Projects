@@ -1,10 +1,17 @@
 import streamlit as st
 import time
 import html
+import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).with_name(".env"))
+
+# Make package imports work even when Streamlit executes this file from
+# inside the cognara directory (common on hosted deployments).
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from cognara.graph import create_graph
 
