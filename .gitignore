@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.streamlit/
+.pytest_cache/
+Thumbs.db
+.DS_Store
+
+# Secrets
+cognara/.env
+
+# Other local projects in this workspace are excluded from this repo for now.
+FounderGPT/
+github_repo_summarizer.py
+
+# Optional generated artifacts
+outputs/
+
