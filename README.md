@@ -37,7 +37,7 @@ python -m cognara.main
 
 Create `cognara/.env` from `cognara/.env.example` and fill in:
 
-- `GEMINI_API_KEY` or `Gemini_api_key`
+- `GEMINI_API_KEY` 
 - `TAVILY_API_KEY`
 
 ## Repository Scope
@@ -55,10 +55,3 @@ cognara/
 	requirements.txt
 	state.py
 ```
-
-## Next Improvements
-
-- Add grounded source summaries instead of a single long response block
-- Save and reopen previous research runs
-- Add structured report export formats beyond plain text
-- Introduce validation and routing loops in the LangGraph workflow
