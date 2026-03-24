@@ -1,0 +1,8 @@
+langgraph
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+google-genai
+tavily-python
+python-dotenv
+fastapi
+uvicorn
