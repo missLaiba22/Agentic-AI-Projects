@@ -1,17 +1,20 @@
 # Agentic AI Projects
 
-This repository currently contains Cognara, a small research-agent project built while learning agentic AI workflows.
+Collection of AI-powered applications leveraging agentic workflows and LLMs.
 
-## Cognara
+## Projects
 
-Cognara is a Streamlit-based research assistant that:
+### Verdara
+AI-powered debate platform where multiple agents discuss topics and reach verdicts.
+- **Path**: `./Verdara`
+- **Tech**: FastAPI, LangGraph, React, TypeScript
+- [Verdara README](./Verdara/README.md)
 
-- searches the web with Tavily
-- synthesizes findings with Gemini
-- orchestrates execution with LangGraph
-- provides both a UI mode and a CLI mode
-
-Project folder: `cognara/`
+### Cognara
+Streamlit-based research assistant that uses web search and LLM synthesis.
+- **Path**: `./cognara`
+- **Tech**: Streamlit, LangGraph, Gemini, Tavily
+- [Cognara README](./cognara/README.md)
 
 ## Quick Start
 
