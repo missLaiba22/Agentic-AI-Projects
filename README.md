@@ -1,6 +1,7 @@
-# Agentic AI Projects
+# Agentic AI Projects (Learning Journey)
 
-Collection of AI-powered applications leveraging agentic workflows and LLMs.
+ 🧪 Learning Project
+These projects were built to explore LangGraph and agentic AI flows. Not production ready but demonstrates multi-agent orchestration, real-time search and LLM integration.
 
 ## Projects
 
@@ -15,4 +16,3 @@ Streamlit-based research assistant that uses web search and LLM synthesis.
 - **Path**: `./cognara`
 - **Tech**: Streamlit, LangGraph, Gemini, Tavily
 - [Cognara README](./cognara/README.md)
-
